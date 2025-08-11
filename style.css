@@ -63,7 +63,7 @@ iframe {
   margin: 2rem auto;  /* vertical spacing + horizontal centering */
   max-width: 100%;    /* responsive width */
   height: auto;       /* auto height */
-  border-radius: 8px; /* optional: match your design style */
+  border-radius: 8px; /* matches design */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
 }
 
@@ -74,6 +74,7 @@ iframe {
   gap: 1.5rem;
   padding: 1rem;
   border-radius: 10px;
+  background-color: #e0f7fa;
 }
 
 .gallery img {
@@ -90,7 +91,8 @@ iframe {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* ✅ Tablet breakpoint */
+/* Responsive breakpoints */
+
 @media (min-width: 768px) {
   body {
     font-size: 1.1rem;
@@ -101,7 +103,6 @@ iframe {
   }
 }
 
-/* ✅ Desktop breakpoint */
 @media (min-width: 1024px) {
   header {
     padding: 3rem;
